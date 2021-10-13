@@ -2,7 +2,7 @@
 
 ### Introduction
 
-This repository is for our ICMV 2021 paper '[Parameter Decoupling Strategy for Semi-supervised 3D Left Atrium Segmentation]<!-- (https://arxiv.org/abs/1907.07034)' -->. 
+This repository is for our ICMV 2021 paper '[Parameter Decoupling Strategy for Semi-supervised 3D Left Atrium Segmentation](https://arxiv.org/abs/2109.09596)'. 
 
 ### Installation
 
@@ -46,13 +46,20 @@ You can refer the code in `code/dataloaders/la_heart_processing.py` to process y
 ### Citation
 
 If PDC is useful for your research, please consider citing:
-<!--
-    @inproceedings{yu2018pu,
-         title={Uncertainty-aware Self-ensembling Model for Semi-supervised 3D Left Atrium Segmentation},
-         author={Yu, Lequan and Wang, Shujun and Li, Xiaomeng and Fu, Chi-Wing and Heng, Pheng-Ann},
-         booktitle = {MICCAI},
-         year = {2019} }
--->
+
+```
+@misc{hao2021parameter,
+      title={Parameter Decoupling Strategy for Semi-supervised 3D Left Atrium Segmentation}, 
+      author={Xuanting Hao and Shengbo Gao and Lijie Sheng and Jicong Zhang},
+      year={2021},
+      eprint={2109.09596},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
+
+
 If you use the LA segmentation data, please also consider citing:
 
       @article{xiong2020global,
